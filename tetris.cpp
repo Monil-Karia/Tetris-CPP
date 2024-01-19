@@ -202,7 +202,7 @@ int main(){
     }
     //Game over message and its content
     CloseHandle(hConsole);
-	std::cout<< "Game Over!! Score:" << nScore << endl;
-	std::system("pause");
+	cout<< "Game Over!! Score:" << nScore << endl;
+	system("pause");
 	return 0;
 }
